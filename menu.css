@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+}
+
+header {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #fff;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0; /* Increase the top and bottom padding */
+    font-size: 20px; /* Increase the font size */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Display 3 items per row */
+    gap: 10px; /* Add some gap between items */
+    justify-content: center;
+}
+
+.gallery img {
+    width: 200px; /* Set a fixed width for all images */
+    height: 200px; /* Set a fixed height for all images */
+    object-fit: cover; /* Maintain the aspect ratio and cover the space */
+}
+
+.menu-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-list li {
+    font-size: 18px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-list li span {
+    width: 70%; /* Set a fixed width for the item names */
+    display: inline-block;
+}
+
+.menu-list li strong {
+    width: 30%; /* Set a fixed width for the item prices */
+    display: inline-block;
+    text-align: right; /* Right-align the prices */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
